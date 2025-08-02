@@ -1,0 +1,16 @@
+/vendor/
+/node_modules/
+/.env
+.DS_Store
+.idea/
+*.log/vendor/
+/node_modules/
+/.env
+.DS_Store
+.idea/
+*.log
+/node_modules/
+/.env
+.DS_Store
+.idea/
+*.log
