@@ -1,0 +1,107 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border: 1px solid #ddd;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  resize: vertical;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-check {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+  background: #0078D7;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.btn-check:hover {
+  background: #005fa3;
+}
+
+#spinner-overlay {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  color: #555;
+}
+
+.hidden {
+  display: none;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.result {
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+
+.result.available {
+  background-color: #e0ffe0;
+  color: #006400;
+  border: 1px solid #b2d8b2;
+}
+
+
+.result.taken {
+  /* background-color: #fff5f5;
+  color: #8B0000;  */
+  border: 1px solid #f5c2c2;
+}
+
+
+/* Add this to your stylesheet or inside a <style> tag */
+form {
+  max-width: 600px;
+  margin: 5vh auto;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff; /* optional: add contrast */
+  border-radius: 8px;     /* optional: soften edges */
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* optional: subtle depth */
+}
+
+
+section, .form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
